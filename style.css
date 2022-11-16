@@ -1,0 +1,410 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color:  hsl(168, 34%, 41%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+    font-family: "Fraunces", serif;
+}
+
+header{
+    background-image: url("images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-position: center;
+    height: 150vh;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    float: right;
+}
+
+li{
+    display: inline-block;
+    padding: 30px;
+    line-height: 2;
+}
+
+li:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+a{
+    color: white;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+}
+
+button:hover{
+    color:  hsl(0, 0%, 100%);
+    background-color: transparent 0.5%;
+}
+
+.logo{
+    padding: 30px;
+    line-height: 2;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+    margin: 50px auto 0;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner{
+    padding: 50px;
+    margin: auto;
+}
+
+.inner h2{
+    width: 230px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: hsl(212, 27%, 19%);
+}
+
+.inner p{
+    width: 390px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: hsl(232, 10%, 55%);
+}
+
+.inner span{
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: hsl(51, 100%, 49%);
+    color:  hsl(212, 27%, 19%);
+}
+
+.inner span:hover{
+    cursor: pointer;
+    background-color:  hsl(7, 99%, 70%);
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.one-img img{
+    width: 50%;
+    width: 49.35vw;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 4px;
+}
+
+.two-img{
+    width: 50%;
+}
+
+.two img{
+    object-fit: cover;
+    width: 631.5px;
+    width: 49.35vw;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 8px;
+}
+
+.graphics{
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    width: 50%;
+    background-position: center;
+    height: 550px;
+}
+
+.text {
+    text-align: center;
+    width: 330px;
+    position: relative;
+    top: 350px;
+    margin: auto;
+    line-height: 1.5;
+    color:  hsl(167, 40%, 24%);
+}
+
+.text h3{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.photo{
+    background-image: url("images/desktop/image-photography.jpg");
+    background-repeat: no-repeat;
+    width: 50%;
+    background-position: center;
+    color: hsl(198, 62%, 26%);
+}
+
+.testimonials{
+    text-align: center;
+    padding: 60px;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 40px;
+}
+
+.testimonials h3{
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 3px;
+}
+
+.testimonial img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.testimonial p{
+    margin: 20px 10px 30px;
+    width: 295px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.testimonial span{
+    display: block;
+    margin-top: 10px;
+    color: hsl(210, 4%, 67%);
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+.images img{
+    max-width: 25%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(168, 34%, 41%);
+    padding: 50px;
+    color: hsl(167, 40%, 24%);
+}
+
+.footer li:hover{
+    color: white;
+}
+
+.footer img{
+    color: hsl(167, 40%, 24%);
+}
+
+svg:hover{
+    fill: white;
+    cursor: pointer;
+}
+
+svg:hover path{
+    fill: white;
+}
+
+.footer-logo span{
+    padding: 15px 15px 0;
+}
+
+.arrow{
+    position: absolute;
+    left: 50%;
+    top: 500px;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+@media (max-width: 900px) {
+    header{
+        background-image: url("images/mobile/image-header.jpg");
+        background-repeat: no-repeat;
+        height: 150vh;
+        width: 100vw;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo{
+        position: relative;
+        right: 150px;
+    }
+
+    .unorderedlist{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        left: 25%;
+        padding: 10px 70px;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        font-family: sans-serif;
+    }
+
+    .triangle{
+        border-right: 50px solid white;
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        position: absolute;
+        right: 115px;
+        top: 63px;
+        display: none;
+    }
+
+    nav li{
+        padding: 10px auto;
+        line-height: 1;
+    }
+
+    a{
+        color: black;
+    }
+
+    .hamburger-menu{
+        display: inline-block;
+        position: relative;
+        bottom: 35px;
+        left: 130px;  
+    }
+
+    h1{
+        margin: 100px auto;
+        width: 320px;
+        line-height: 1.3;
+        letter-spacing: 5px;
+    }
+
+    .arrow{
+        left: 50%;
+        top: 90%;
+    }
+
+    .one{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .one-img img{
+        width: 100vw;
+    }
+
+    .two{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .two-img img{
+        width: 100vw;
+    }
+
+    .inner h2{
+        text-align: center;
+        margin: 20px auto;
+        font-weight: bolder;
+        width: 200px;
+    }
+
+    .inner p{
+        width: 285px;
+    }
+
+    .three{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .graphics{
+        display: block;
+        width: 100%;
+    }
+
+    .photo{
+        width: 100%;
+        height: 600px;
+    }
+
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial span{
+        margin-bottom: 50px;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .images img{
+        width: 100%;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    button{
+        background-color: hsl(51, 100%, 49%);
+    }
+}
